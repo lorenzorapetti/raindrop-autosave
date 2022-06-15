@@ -1,24 +1,32 @@
 {
   "name": "raindrop-auto-save",
-  "displayName": "Raindrop auto save",
-  "version": "0.0.0",
-  "description": "A basic Plasmo extension.",
-  "author": "lorenzo",
+  "displayName": "Raindrop Auto Save",
+  "version": "1.0.0",
+  "description": "Automatically saves every article you visit in Raindrop.",
+  "author": "Lorenzo Rapetti <lorenzo.rapetti.94@gmail.com>",
   "scripts": {
     "dev": "plasmo dev",
     "build": "plasmo build"
   },
   "dependencies": {
+    "@heroicons/react": "^1.0.6",
+    "@mozilla/readability": "^0.4.2",
+    "@plasmohq/storage": "^0.5.1",
+    "@tailwindcss/forms": "^0.5.2",
+    "ky": "^0.30.0",
     "plasmo": "latest",
     "react": "18.2.0",
-    "react-dom": "18.2.0"
+    "react-dom": "18.2.0",
+    "tailwindcss": "^3.1.3"
   },
   "devDependencies": {
-    "@trivago/prettier-plugin-sort-imports": "3.2.0",
+    "@ianvs/prettier-plugin-sort-imports": "^3.4.2",
     "@types/chrome": "0.0.190",
     "@types/node": "17.0.43",
     "@types/react": "18.0.12",
     "@types/react-dom": "18.0.5",
+    "autoprefixer": "^10.4.7",
+    "postcss": "^8.4.14",
     "prettier": "2.7.0",
     "typescript": "4.7.3"
   },
