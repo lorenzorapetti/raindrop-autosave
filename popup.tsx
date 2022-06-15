@@ -1,5 +1,3 @@
-import { useState } from "react"
-
 import { useStorage } from "@plasmohq/storage"
 
 import "./assets/css/style.css"

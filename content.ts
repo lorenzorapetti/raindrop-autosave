@@ -81,6 +81,6 @@ window.addEventListener("load", async () => {
     }
   })
 
-  const saveCount = await storage.get(SAVE_COUNT_KEY)
+  const saveCount = (await storage.get(SAVE_COUNT_KEY)) || "0"
   await storage.set(SAVE_COUNT_KEY, (parseInt(saveCount, 10) + 1).toString())
 })
